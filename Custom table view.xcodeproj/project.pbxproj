@@ -14,6 +14,9 @@
 		5432AF5E1F15E721008310EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5432AF5C1F15E721008310EC /* LaunchScreen.storyboard */; };
 		5432AF691F15E721008310EC /* Custom_table_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432AF681F15E721008310EC /* Custom_table_viewTests.swift */; };
 		5432AF741F15E721008310EC /* Custom_table_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432AF731F15E721008310EC /* Custom_table_viewUITests.swift */; };
+		5432AF821F15F6F3008310EC /* TableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432AF811F15F6F3008310EC /* TableTableViewCell.swift */; };
+		5432AF841F1600C0008310EC /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432AF831F1600C0008310EC /* TableViewCell1.swift */; };
+		54F461501F163D66006FA064 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4614F1F163D66006FA064 /* BlogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		5432AF6F1F15E721008310EC /* Custom table viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom table viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5432AF731F15E721008310EC /* Custom_table_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_table_viewUITests.swift; sourceTree = "<group>"; };
 		5432AF751F15E721008310EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5432AF811F15F6F3008310EC /* TableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTableViewCell.swift; sourceTree = "<group>"; };
+		5432AF831F1600C0008310EC /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		54F4614F1F163D66006FA064 /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				5432AF531F15E721008310EC /* AppDelegate.swift */,
 				5432AF551F15E721008310EC /* ViewController.swift */,
+				54F4614F1F163D66006FA064 /* BlogViewController.swift */,
+				5432AF811F15F6F3008310EC /* TableTableViewCell.swift */,
 				5432AF571F15E721008310EC /* Main.storyboard */,
+				5432AF831F1600C0008310EC /* TableViewCell1.swift */,
 				5432AF5A1F15E721008310EC /* Assets.xcassets */,
 				5432AF5C1F15E721008310EC /* LaunchScreen.storyboard */,
 				5432AF5F1F15E721008310EC /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5432AF561F15E721008310EC /* ViewController.swift in Sources */,
+				54F461501F163D66006FA064 /* BlogViewController.swift in Sources */,
 				5432AF541F15E721008310EC /* AppDelegate.swift in Sources */,
+				5432AF821F15F6F3008310EC /* TableTableViewCell.swift in Sources */,
+				5432AF841F1600C0008310EC /* TableViewCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				5432AF7A1F15E721008310EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5432AF7B1F15E721008310EC /* Build configuration list for PBXNativeTarget "Custom table viewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				5432AF7D1F15E721008310EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5432AF7E1F15E721008310EC /* Build configuration list for PBXNativeTarget "Custom table viewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				5432AF801F15E721008310EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
